@@ -39,12 +39,14 @@
             </div>
 
             <div class="flex flex-row items-center gap-1">
-              <button><img src="./image/add-plus.svg"
+              <button class="btnAddCard"><img src="./image/add-plus.svg"
                   class="w-10 p-2 bg-[#f8f8f829] rounded-lg"></button>
-              <button><img src="./image/danger.svg"
+              <button class="btnDanger"><img src="./image/danger.svg"
                   class="w-10 p-2 bg-[#f8f8f829] rounded-lg"></button>
-              <button><img src="./image/alarm-bell.svg"
+              <button class="btnAlarm"><img src="./image/alarm-bell.svg"
                   class="w-10 p-2 bg-[#f8f8f829] rounded-lg "></button>
+              <img src="./image/Dog_Emoji_large.webp"
+                class="w-10 p-2 bg-[#7ce9b8c3] rounded-full">
             </div>
           </div>
         </div>
@@ -73,10 +75,11 @@
         class="bodyContainer rounded-sm w-[1318px] h-[555px]  absolute top-[52px] left-[48px]">
 
         <div class="flex flex-row justify-between items-center p-9">
-          <div class="toDO h-32 bg-[#f8f8f863] w-96 rounded-lg flex flex-col justify-between p-2">
+          <div
+            class="toDO h-32 bg-[#f8f8f863] w-96 rounded-lg flex flex-col justify-between p-2">
             <div class="flex items-center justify-between m-3 mt-0">
               <h3 class="font-bold text-2xl text-[#00000099]">To do</h3>
-              <button>
+              <button class="threeDots">
                 <svg class="w-10" fill="#00000099" version="1.1" id="Capa_1"
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -108,15 +111,16 @@
                     <path d="M4 12H20M12 4V20" stroke="#6f6d6d" stroke-width="2"
                       stroke-linecap="round" stroke-linejoin="round"></path>
                   </g></svg></button>
-                  <p class="text-[#6f6d6d]">Add a Card</p>
+              <button><p class="text-[#6f6d6d]">Add a Card</p></button>
             </div>
 
           </div>
 
-          <div class="Doing h-32 bg-[#f8f8f863] w-96 rounded-lg flex flex-col justify-between p-2">
+          <div
+            class="Doing h-32 bg-[#f8f8f863] w-96 rounded-lg flex flex-col justify-between p-2">
             <div class="flex items-center justify-between m-3 mt-0">
               <h3 class="font-bold text-2xl text-[#00000099]">Doing</h3>
-              <button>
+              <button class="threeDots">
                 <svg class="w-10" fill="#00000099" version="1.1" id="Capa_1"
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -148,16 +152,16 @@
                     <path d="M4 12H20M12 4V20" stroke="#6f6d6d" stroke-width="2"
                       stroke-linecap="round" stroke-linejoin="round"></path>
                   </g></svg></button>
-                  <p class="text-[#6f6d6d]">Add a Card</p>
+              <button><p class="text-[#6f6d6d]">Add a Card</p></button>
             </div>
 
           </div>
 
-
-          <div class="Done h-32 bg-[#f8f8f863] w-96 rounded-lg flex flex-col justify-between p-2">
+          <div
+            class="Done h-32 bg-[#f8f8f863] w-96 rounded-lg flex flex-col justify-between p-2">
             <div class="flex items-center justify-between m-3 mt-0">
               <h3 class="font-bold text-2xl text-[#00000099]">Done</h3>
-              <button>
+              <button class="threeDots">
                 <svg class="w-10" fill="#00000099" version="1.1" id="Capa_1"
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -189,7 +193,8 @@
                     <path d="M4 12H20M12 4V20" stroke="#6f6d6d" stroke-width="2"
                       stroke-linecap="round" stroke-linejoin="round"></path>
                   </g></svg></button>
-                  <p class="text-[#6f6d6d]">Add a Card</p>
+              <button class="btnAddCard"><p class="text-[#6f6d6d]">Add a
+                  Card</p></button>
             </div>
 
           </div>
