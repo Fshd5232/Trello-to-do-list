@@ -5,8 +5,11 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do list</title>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
+    <script src="/main.js"></script>
+
     <div id="app"
       class="bg-gradient-to-r to-pink-500 via-purple-600 from-indigo-200 w-[1349 px] h-[607px] flex flex-col items-center justify-between">
       <div>
@@ -74,9 +77,9 @@
       <div
         class="bodyContainer rounded-sm w-[1318px] h-[555px]  absolute top-[52px] left-[48px]">
 
-        <div class="flex flex-row justify-between items-center p-9">
+        <div class="flex flex-row justify-between items-center p-6">
           <div
-            class="toDO h-32 bg-[#f8f8f863] w-96 rounded-lg flex flex-col justify-between p-2">
+            class="Todo max-h-[506px] bg-[#f8f8f863] w-96 rounded-lg flex flex-col justify-between p-2 gap-1">
             <div class="flex items-center justify-between m-3 mt-0">
               <h3 class="font-bold text-2xl text-[#00000099]">To do</h3>
               <button class="threeDots">
@@ -97,8 +100,10 @@
               </button>
             </div>
 
-            <div class="taskContainer bg-slate-50 p-2 rounded-md hidden">
-              <ul class="tasks bg-slate-50 rounded-md  overflow-y-scroll">
+            <div
+              class="taskContainer min-h-10 max-h-52 bg-slate-50 p-2 rounded-md ">
+              <ul
+                class="tasks  rounded-md  overflow-y-scroll max-h-[600px]">
               </ul>
             </div>
 
@@ -108,16 +113,20 @@
                     id="SVGRepo_bgCarrier" stroke-width="0"></g><g
                     id="SVGRepo_tracerCarrier" stroke-linecap="round"
                     stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
-                    <path d="M4 12H20M12 4V20" stroke="#6f6d6d" stroke-width="2"
+                    <path d="M4 12H20M12 4V20" stroke="#6f6d6d"
+                      stroke-width="2"
                       stroke-linecap="round" stroke-linejoin="round"></path>
                   </g></svg></button>
-              <button><p class="text-[#6f6d6d]">Add a Card</p></button>
+              <div>
+                <button class="btnAddCard "><span class="text-[#6f6d6d]">Add a
+                    Card</span></button>
+              </div>
             </div>
 
           </div>
 
           <div
-            class="Doing h-32 bg-[#f8f8f863] w-96 rounded-lg flex flex-col justify-between p-2">
+            class="Doing max-h-[506px] bg-[#f8f8f863] w-96 rounded-lg flex flex-col justify-between p-2 gap-1">
             <div class="flex items-center justify-between m-3 mt-0">
               <h3 class="font-bold text-2xl text-[#00000099]">Doing</h3>
               <button class="threeDots">
@@ -138,8 +147,10 @@
               </button>
             </div>
 
-            <div class="taskContainer bg-slate-50 p-2 rounded-md hidden">
-              <ul class="tasks bg-slate-50 rounded-md  overflow-y-scroll">
+            <div
+              class="taskContainer min-h-10 max-h-52 bg-slate-50 p-2 rounded-md ">
+              <ul
+                class="tasks  rounded-md  overflow-y-scroll max-h-[600px]">
               </ul>
             </div>
 
@@ -149,16 +160,20 @@
                     id="SVGRepo_bgCarrier" stroke-width="0"></g><g
                     id="SVGRepo_tracerCarrier" stroke-linecap="round"
                     stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
-                    <path d="M4 12H20M12 4V20" stroke="#6f6d6d" stroke-width="2"
+                    <path d="M4 12H20M12 4V20" stroke="#6f6d6d"
+                      stroke-width="2"
                       stroke-linecap="round" stroke-linejoin="round"></path>
                   </g></svg></button>
-              <button><p class="text-[#6f6d6d]">Add a Card</p></button>
+              <div>
+                <button class="btnAddCard "><span class="text-[#6f6d6d]">Add a
+                    Card</span></button>
+              </div>
             </div>
 
           </div>
 
           <div
-            class="Done h-32 bg-[#f8f8f863] w-96 rounded-lg flex flex-col justify-between p-2">
+            class="Done max-h-[506px] bg-[#f8f8f863] w-96 rounded-lg flex flex-col justify-between p-2 gap-1">
             <div class="flex items-center justify-between m-3 mt-0">
               <h3 class="font-bold text-2xl text-[#00000099]">Done</h3>
               <button class="threeDots">
@@ -179,8 +194,10 @@
               </button>
             </div>
 
-            <div class="taskContainer bg-slate-50 p-2 rounded-md hidden">
-              <ul class="tasks bg-slate-50 rounded-md  overflow-y-scroll">
+            <div
+              class="taskContainer min-h-10 max-h-52 bg-slate-50 p-2 rounded-md ">
+              <ul
+                class="tasks  rounded-md  overflow-y-scroll max-h-[600px]">
               </ul>
             </div>
 
@@ -190,11 +207,14 @@
                     id="SVGRepo_bgCarrier" stroke-width="0"></g><g
                     id="SVGRepo_tracerCarrier" stroke-linecap="round"
                     stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
-                    <path d="M4 12H20M12 4V20" stroke="#6f6d6d" stroke-width="2"
+                    <path d="M4 12H20M12 4V20" stroke="#6f6d6d"
+                      stroke-width="2"
                       stroke-linecap="round" stroke-linejoin="round"></path>
                   </g></svg></button>
-              <button class="btnAddCard"><p class="text-[#6f6d6d]">Add a
-                  Card</p></button>
+              <div>
+                <button class="btnAddCard "><span class="text-[#6f6d6d]">Add a
+                    Card</span></button>
+              </div>
             </div>
 
           </div>
@@ -203,6 +223,6 @@
       </div>
 
     </div>
-    <script type="module" src="/main.js"></script>
+
   </body>
 </html>
