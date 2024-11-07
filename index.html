@@ -5,10 +5,10 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do list</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./src/style/main.css">
   </head>
   <body>
-    <script src="/main.js"></script>
+    <script src="./src/script/main.js"></script>
 
     <div id="app"
       class="bg-gradient-to-r to-pink-500 via-purple-600 from-indigo-200 w-[1349 px] h-[607px] flex flex-col items-center justify-between">
@@ -16,14 +16,14 @@
         <div class="navbar w-[1366px] bg-[#0000004b] p-1 ">
           <div class="flex flex-row items-center justify-between">
             <div class="flex flex-row items-center gap-1">
-              <button><img src="./image/menu.svg"
+              <button><img src="./src/assets/image/menu.svg"
                   class="w-10 h-10 p-2 bg-[#f8f8f829] rounded-lg"></button>
-              <button><img src="./image/home.svg"
+              <button><img src="./src/assets/image/home.svg"
                   class="w-10 p-2 bg-[#f8f8f829] rounded-lg"></button>
               <div class="relative">
                 <input type="text" name="search" id="search"
                   class="bg-[#f8f8f829] rounded-lg  h-9">
-                <img src="./image/search.svg"
+                <img src="./src/assets/image/search.svg"
                   class="w-5 absolute top-[8px] right-2">
               </div>
             </div>
@@ -42,13 +42,15 @@
             </div>
 
             <div class="flex flex-row items-center gap-1">
-              <button class="btnAddCard"><img src="./image/add-plus.svg"
+              <button class="btnAddCard"><img
+                  src="./src/assets/image/add-plus.svg"
                   class="w-10 p-2 bg-[#f8f8f829] rounded-lg"></button>
-              <button class="btnDanger"><img src="./image/danger.svg"
+              <button class="btnDanger"><img src="./src/assets/image/danger.svg"
                   class="w-10 p-2 bg-[#f8f8f829] rounded-lg"></button>
-              <button class="btnAlarm"><img src="./image/alarm-bell.svg"
+              <button class="btnAlarm"><img
+                  src="./src/assets/image/alarm-bell.svg"
                   class="w-10 p-2 bg-[#f8f8f829] rounded-lg "></button>
-              <img src="./image/Dog_Emoji_large.webp"
+              <img src="./src/assets/image/Dog_Emoji_large.webp"
                 class="w-10 p-2 bg-[#7ce9b8c3] rounded-full">
             </div>
           </div>
@@ -69,7 +71,8 @@
                 d="M24.7635,20.7326c-.1536.36-.93.6577-2.2433.8606-.1232.019-.1751.2183-.2463.5445-.0293.1348-.0592.2669-.1.4057a.2451.2451,0,0,1-.26.1943h-.0205a2.1011,2.1011,0,0,1-.3738-.0472,4.921,4.921,0,0,0-.9852-.1044,4.37,4.37,0,0,0-.7106.06,3.4048,3.4048,0,0,0-1.3483.6888,3.912,3.912,0,0,1-2.3668.9328c-.05,0-.0973-.0018-.1335-.0035-.0287.0024-.0584.0035-.0881.0035a3.9062,3.9062,0,0,1-2.3651-.9322,3.4118,3.4118,0,0,0-1.35-.69,4.3612,4.3612,0,0,0-.71-.06,4.858,4.858,0,0,0-.9852.1115,2.1872,2.1872,0,0,1-.3737.0536.2574.2574,0,0,1-.2807-.2012c-.0414-.1407-.0711-.277-.1-.4082-.0716-.328-.1237-.5282-.2465-.5472-1.3133-.2026-2.0893-.5011-2.2439-.8626a.3349.3349,0,0,1-.0272-.114.2109.2109,0,0,1,.1764-.22,4.5854,4.5854,0,0,0,2.7564-1.6391,6.1681,6.1681,0,0,0,.94-1.4616l.0048-.01a.943.943,0,0,0,.09-.79c-.1693-.3991-.73-.5769-1.1007-.6946-.0921-.0291-.1794-.0567-.2488-.0844-.3288-.13-.8693-.4041-.7973-.7828a.7333.7333,0,0,1,.7127-.4683.5052.5052,0,0,1,.2158.043,2.1572,2.1572,0,0,0,.8916.2355.7465.7465,0,0,0,.5134-.1569q-.0145-.2629-.0318-.5256a8.8742,8.8742,0,0,1,.2122-3.5447A4.6074,4.6074,0,0,1,15.8173,7.76q.177-.0015.3539-.0033a4.6152,4.6152,0,0,1,4.2853,2.7606,8.884,8.884,0,0,1,.2118,3.5478l-.0036.0574c-.01.1629-.02.317-.0278.4665a.7215.7215,0,0,0,.4656.1558,2.2321,2.2321,0,0,0,.84-.234.6628.6628,0,0,1,.2751-.0545.832.832,0,0,1,.3133.06l.005.0019a.5825.5825,0,0,1,.4409.4781c.0034.1835-.133.4578-.8039.7226-.0687.0272-.1564.0551-.2489.0844-.3712.1178-.9312.2956-1.1005.6944a.9422.9422,0,0,0,.09.7893l.0048.01a5.4311,5.4311,0,0,0,3.6967,3.1005.211.211,0,0,1,.1764.22A.3408.3408,0,0,1,24.7635,20.7326Z"></path><rect
                 id="_Transparent_Rectangle_" data-name="<Transparent Rectangle>"
                 class="cls-1" width="32" height="32"></rect></g></svg>
-          <button><img src="./image/arrow-next.svg" class="w-6"></button>
+          <button><img src="./src/assets/image/arrow-next.svg"
+              class="w-6"></button>
         </div>
 
       </div>
@@ -216,13 +219,9 @@
                     Card</span></button>
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
-
     </div>
-
   </body>
 </html>
