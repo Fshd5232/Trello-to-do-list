@@ -1,3 +1,3 @@
 import '../style/style.css'
 
-// window.location.href = "login.html"
+window.location.href = "login.html"
